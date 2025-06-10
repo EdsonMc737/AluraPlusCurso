@@ -116,19 +116,13 @@ body{
 .rodape__lista{
     display: flex;
     justify-content: center;;
-    list-style-type: none;
-   
-    
-    
+    list-style-type: none;  
 }
 .rodape{
-    text-align: center;
-    
-   
+    text-align: center; 
 }
 .lista__link{
-    margin: 2em 2em 2em 2em;
-    
+    margin: 2em 2em 2em 2em;   
 }
 .rodape__link{
     text-decoration: none;
@@ -143,9 +137,12 @@ body{
     color: var(--botao-azul);
 
 }
+
+
 .lista__link a:active{
     color: purple;
 }
+
 .container__botao:hover{
     background-color: var(--botao-azul-efeito);
 }
